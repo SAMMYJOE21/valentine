@@ -1,0 +1,43 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+    background-color: #F8C8DC;
+}
+
+.container {
+    text-align: center;
+}
+
+#noButton {
+    position: absolute;
+    transition: 0.5s;
+    margin-left: 100px;
+}
+
+#yesButton {
+    margin-right: 100px;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+}
+
+.header-text {
+    font-size: 40px;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 0px;;
+}
+
+button {
+    background-color: #7b445b;
+    color: white;
+    border: none;
+    padding: 10px 25px;
+    border-radius: 5px;
+}
